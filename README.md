@@ -1,5 +1,18 @@
 # ikeandrie-web
 
+## Tech stack:
+
+Vitejs <br/>
+React <br/>
+Typescript <br/>
+Tailwind & sass <br/>
+React three fiber (three.js) <br/>
+Framermotion <br/>
+Git (version control) <br/>
+Vercel (deployment) <br/>
+
+<hr>
+
 ## To-do
 
 - [x] Reset
@@ -26,6 +39,7 @@
 
 ### MISCS
 
-- [ ] Fix readme
+- [ ] Readme
+  - [x] Tech stack
 - [ ] Issues on github
 - [ ] Seperate folders (design & web)
