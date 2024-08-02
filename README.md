@@ -33,10 +33,10 @@ export default {
 
 ## To-do
 
-- [ ] Reset
-- [ ] Vitejs initial
-- [ ] Remove unecessary/unused component and styles
-- [ ] Project structure/organization
+- [x] Reset
+- [x] Vitejs initial
+- [x] Remove unecessary/unused component and styles
+- [x] Project structure/organization
 - [ ] Install packages/dependencies:
   - [ ] Sass & Tailwind (for styling)
   - [ ] Framer motion (animation)
@@ -46,3 +46,8 @@ export default {
 
 - [ ] Initial
 - [ ]
+
+### MISCS
+
+- [ ] Fix readme
+- [ ] Issues on github
