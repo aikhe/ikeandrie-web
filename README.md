@@ -38,11 +38,19 @@ export default {
 - [x] Remove unecessary/unused component and styles
 - [x] Project structure/organization
 - [ ] Install packages/dependencies:
-  - [ ] Sass & Tailwind (for styling)
+  - [x] Sass & Tailwind (styling)
   - [ ] Framer motion (animation)
   - [ ] React three fiber (3d web design)
+- [ ]
 
-### FIGMA/DESIGN
+### STYLES
+
+- [ ] Additional styles
+  - [ ] Utils
+  - [ ] \_Variables
+- [ ] Tailwind method
+
+### UI/UX ft.Figma
 
 - [ ] Initial
 - [ ]
