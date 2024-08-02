@@ -39,8 +39,8 @@ export default {
 - [x] Project structure/organization
 - [ ] Install packages/dependencies:
   - [x] Sass & Tailwind (styling)
-  - [ ] Framer motion (animation)
-  - [ ] React three fiber (3d web design)
+  - [x] Framer motion (animation)
+  - [x] React three fiber (3d web design)
 - [ ]
 
 ### STYLES
