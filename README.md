@@ -30,3 +30,19 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 # ikeandrie-web
+
+## To-do
+
+- [ ] Reset
+- [ ] Vitejs initial
+- [ ] Remove unecessary/unused component and styles
+- [ ] Project structure/organization
+- [ ] Install packages/dependencies:
+  - [ ] Sass & Tailwind (for styling)
+  - [ ] Framer motion (animation)
+  - [ ] React three fiber (3d web design)
+
+### FIGMA/DESIGN
+
+- [ ] Initial
+- [ ]
