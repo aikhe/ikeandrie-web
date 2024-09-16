@@ -1,6 +1,6 @@
 # ikeandrie-web
 
-## Tech stack:
+## Tech stack
 
 Vitejs <br/>
 React <br/>
@@ -11,35 +11,58 @@ Framermotion <br/>
 Git (version control) <br/>
 Vercel (deployment) <br/>
 
-<hr>
-
 ## To-do
 
-- [x] Reset
-- [x] Vitejs initial
-- [x] Remove unecessary/unused component and styles
-- [x] Project structure/organization
-- [ ] Install packages/dependencies:
-  - [x] Sass & Tailwind (styling)
-  - [x] Framer motion (animation)
-  - [x] React three fiber (3d web design)
-- [ ]
+- [x] Clean Reset
 
-### STYLES
+- VITEJS
 
-- [ ] Additional styles
-  - [ ] Utils
-  - [ ] \_Variables
-- [ ] Tailwind method
+  - [x] Remove unecessary/unused component and styles
+  - [x] Project structure/organization
+  - [ ] Install packages/dependencies:
+    - [x] Sass & Tailwind (styling)
+    - [x] Tailwind Prettier
+    - [x] Framer motion (animation)
+    - [ ] Gsap for another time
+    - [x] React three fiber (3d web design)
 
-### UI/UX ft.Figma
+- ROOT
 
-- [ ] Initial
-- [ ]
+  - [ ] Add Lenis Scroll
+  - [ ] Navigation
+  - [ ] Hero
+  - [ ] About
+  - [ ] Projects & stuffs I work on
+  - [ ] Contact/Reach out
 
-### MISCS
+- STYLES
 
-- [ ] Readme
+  - [ ] Additional styles
+    - [x] Utils
+    - [ ] \_Variables
+  - [x] Tailwind method
+
+- UI/UX ft.Figma
+
+  - [ ] Initial
+  - [ ] Logo
+
+- Readme
+
   - [x] Tech stack
-- [ ] Issues on github
-- [ ] Seperate folders (design & web)
+  - [ ] Todo Initial
+
+- MISCS
+
+  - [ ] Issues on github
+  - [x] Seperate folders (design & web)
+
+- GOAL
+
+  - More on self expression
+  - Getting back at it
+  - Website portfolio
+  - 3d
+  - Webgl
+  - Animations
+  - "That style"
