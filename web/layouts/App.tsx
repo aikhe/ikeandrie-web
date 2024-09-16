@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
             key={index}
             className="flex h-[100svh] w-full items-center justify-center bg-black"
           >
-            <motion.p
+            {/* <motion.p
               animate={{
                 rotate: 360,
               }}
@@ -28,7 +28,8 @@ export default function App() {
               className="text-2xl text-white"
             >
               ikeandrie-web
-            </motion.p>
+            </motion.p> */}
+            <p className="text-2xl text-white">ikeandrie</p>
           </div>
         ),
       )}

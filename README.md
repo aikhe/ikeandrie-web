@@ -8,6 +8,7 @@ Typescript <br/>
 Tailwind & sass <br/>
 React three fiber (three.js) <br/>
 Framermotion <br/>
+GSAP <br/>
 Git (version control) <br/>
 Vercel (deployment) <br/>
 
