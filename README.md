@@ -26,15 +26,27 @@ Vercel (deployment) <br/>
     - [x] Framer motion (animation)
     - [ ] Gsap for another time
     - [x] React three fiber (3d web design)
+    - [ ] Lenis scroll
 
-- ROOT
+- FRONTEND
 
-  - [ ] Add Lenis Scroll
+  - [ ] Custom cursor
   - [ ] Navigation
   - [ ] Hero
   - [ ] About
   - [ ] Projects & stuffs I work on
-  - [ ] Contact/Reach out
+  - [ ] A game
+
+- UI/UX ft.Figma
+
+  - [ ] Initial
+  - [ ] Logo
+  - [ ] Favicon
+
+- BACKEND
+
+  - [ ] Number of visitors
+  - [ ] Contact/Reach out using gmail
 
 - STYLES
 
@@ -43,19 +55,14 @@ Vercel (deployment) <br/>
     - [ ] \_Variables
   - [x] Tailwind method
 
-- UI/UX ft.Figma
-
-  - [ ] Initial
-  - [ ] Logo
-
 - Readme
 
   - [x] Tech stack
-  - [ ] Todo Initial
+  - [x] Todo Initial
 
 - MISCS
 
-  - [ ] Issues on github
+  - [x] Issues (github cli)
   - [x] Seperate folders (design & web)
 
 - GOAL

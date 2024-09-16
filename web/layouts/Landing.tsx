@@ -1,6 +1,23 @@
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
+import Lenis from "lenis";
+import { useEffect } from "react";
 
-export default function App() {
+export default function Landing() {
+  useEffect(() => {
+    const lenis = new Lenis();
+
+    lenis.on("scroll", (e) => {
+      console.log(e);
+    });
+
+    function raf(time: DOMHighResTimeStamp) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  });
+
   return (
     <>
       {[...Array(4)].map((_, index) =>
@@ -16,7 +33,7 @@ export default function App() {
             key={index}
             className="flex h-[100svh] w-full items-center justify-center bg-black"
           >
-            {/* <motion.p
+            <motion.p
               animate={{
                 rotate: 360,
               }}
@@ -27,9 +44,9 @@ export default function App() {
               }}
               className="text-2xl text-white"
             >
-              ikeandrie-web
-            </motion.p> */}
-            <p className="text-2xl text-white">ikeandrie</p>
+              ikeandrie
+            </motion.p>
+            {/* <p className="text-2xl text-white">ikeandrie</p> */}
           </div>
         ),
       )}

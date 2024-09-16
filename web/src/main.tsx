@@ -2,10 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "../styles/globals.scss";
 
-import App from "../layouts/App.tsx";
+import Landing from "../layouts/Landing.tsx";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const rootElement = document.getElementById("lenis-root");
+
+if (rootElement) {
+  ReactDOM.createRoot(rootElement!).render(
+    <React.StrictMode>
+      <Landing />
+    </React.StrictMode>,
+  );
+} else {
+  console.error("Error: rootElement is not found");
+}
