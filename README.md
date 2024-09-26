@@ -26,7 +26,7 @@ Vercel (deployment) <br/>
     - [x] Framer motion (animation)
     - [ ] Gsap for another time
     - [x] React three fiber (3d web design)
-    - [ ] Lenis scroll
+    - [x] Lenis scroll
 
 - FRONTEND
 
@@ -52,8 +52,10 @@ Vercel (deployment) <br/>
 
   - [ ] Additional styles
     - [x] Utils
+    - [x] Fonts
     - [ ] \_Variables
   - [x] Tailwind method
+  - [x] Tailwind config setup
 
 - Readme
 
@@ -64,6 +66,7 @@ Vercel (deployment) <br/>
 
   - [x] Issues (github cli)
   - [x] Seperate folders (design & web)
+  - [x] Sory na
 
 - GOAL
 

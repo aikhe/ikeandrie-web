@@ -1,6 +1,8 @@
-import { motion } from "framer-motion";
-import Lenis from "lenis";
 import { useEffect } from "react";
+import Lenis from "lenis";
+// import { motion } from "framer-motion";
+
+import GradientText from "./pages/gradient-text";
 
 export default function Landing() {
   useEffect(() => {
@@ -20,7 +22,10 @@ export default function Landing() {
 
   return (
     <>
-      {[...Array(4)].map((_, index) =>
+      <div className="bg-black">
+        <GradientText />
+      </div>
+      {/* {[...Array(4)].map((_, index) =>
         index % 2 === 0 ? (
           <div
             key={index}
@@ -46,10 +51,10 @@ export default function Landing() {
             >
               ikeandrie
             </motion.p>
-            {/* <p className="text-2xl text-white">ikeandrie</p> */}
+            <p className="text-2xl text-white">ikeandrie</p>
           </div>
         ),
-      )}
+      )} */}
     </>
   );
 }

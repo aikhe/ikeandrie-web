@@ -1,0 +1,16 @@
+$FKGroteskNeue-400: "/fonts/FKGroteskNeueTrial-Regular-BF6576818c3af74.otf";
+$FKGroteskNeue-100: "/fonts/FKGroteskNeueTrial-Thin-BF6576818c2a14c.otf";
+
+@layer base {
+  @font-face {
+    font-family: "FKGroteskRegular";
+    src: url(#{$FKGroteskNeue-400}) format("opentype");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "FKGroteskThin";
+    src: url(#{$FKGroteskNeue-100}) format("opentype");
+    font-weight: 100;
+  }
+}

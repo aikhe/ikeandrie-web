@@ -7,7 +7,22 @@ export default {
     "./components/**/*.{js,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dmsans: ["Dm Sans"],
+        fkgroteskregular: ["FKGroteskRegular"],
+        fkgroteskthin: ["FKGroteskRegular"],
+      },
+
+      lineHeight: {
+        base: "1.25",
+        fit: "100%",
+      },
+
+      letterSpacing: {
+        regular: ".01em",
+      },
+    },
   },
   plugins: [],
 };
