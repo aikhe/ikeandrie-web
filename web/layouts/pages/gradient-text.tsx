@@ -1,9 +1,7 @@
 import { TextScroll } from "../../components/text-scroll";
 
-const paragraph = `Eto ung time na inuulit, pero alam mona, but you still keep insisting despite
-  the pain and disappointment the outcome is gonna be. The thing is you know it, kaya
-  alam mo kung paano maiiwasan, so eto ako ginagawang laro na kala mo walang pandama,
-  owing to the fact that I already know it. So un eto ako nahihirapan mahulog.`;
+const paragraph = `kung ikaw na ba, i'll make the effort to. if you do, i'll be happy to do so.
+  pero kung di possible, it's alright. ayoko lng mabuburden ng walang kasiguraduhan.`;
 
 const GradientText = () => {
   return (
