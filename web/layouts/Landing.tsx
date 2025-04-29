@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import Lenis from "lenis";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 import GradientText from "./pages/gradient-text";
 
@@ -25,7 +25,7 @@ export default function Landing() {
       <div className="bg-black">
         <GradientText />
       </div>
-      {/* {[...Array(4)].map((_, index) =>
+      {[...Array(4)].map((_, index) =>
         index % 2 === 0 ? (
           <div
             key={index}
@@ -54,7 +54,7 @@ export default function Landing() {
             <p className="text-2xl text-white">ikeandrie</p>
           </div>
         ),
-      )} */}
+      )}
     </>
   );
 }

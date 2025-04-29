@@ -68,11 +68,11 @@ const Char = ({ children, progress, range }: WordProps) => {
 
   return (
     <span>
-      <span className="font-fkgroteskthin tracking-regular leading-fit absolute text-[20px] text-white opacity-20 md:text-[50px]">
+      <span className="absolute font-fkgroteskthin text-[20px] leading-fit tracking-regular text-white opacity-20 md:text-[50px]">
         {children}
       </span>
       <motion.span
-        className="font-fkgroteskthin tracking-regular leading-fit text-[20px] text-white md:text-[50px]"
+        className="font-fkgroteskthin text-[20px] leading-fit tracking-regular text-white md:text-[50px]"
         style={{ opacity: opacity }}
       >
         {children}
