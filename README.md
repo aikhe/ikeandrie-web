@@ -78,3 +78,5 @@ Vercel (deployment) <br/>
   - Animations
   - "That style"
   - potchang project sa school ah
+
+chore(contributions): commiting changes to display contributions on graph (2nd)
